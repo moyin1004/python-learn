@@ -1,3 +1,4 @@
+"""
 num = input()
 for temp in num:
     if temp == 0:
@@ -20,3 +21,10 @@ for temp in num:
         print("八", end = "")
     else:
         print("九", end = "")
+"""
+
+template = "零一二三四五六七八九"
+
+s = input()
+for c in s:
+print(template[eval(c)], end="")
